@@ -1,12 +1,22 @@
 import React, { Component } from 'react';
+import Navbar from './components/Navbar'
+import { BrowserRouter, Route } from 'react-router-dom'
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1 className="center"> Hello world </h1>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />s
+          <Route exact path='/' component={Home} />
+          <Route path='/About' component={About} />
+          <Route path='/Contact' component={Contact} />
+        </div>
+      </BrowserRouter>
     );
   }
 }
