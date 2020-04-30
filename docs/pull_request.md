@@ -5,7 +5,7 @@
 - Outlined description of what the pull request does
 
 #### How should this be manually tested?
-  - Clone the repo with `clone https://github.com/bithubph/bithub-fe.git`
+  - Clone the repo with `clone https://github.com/gagofure/posttimes.git`
   - Checkout to branch `pr-branch-name`
   - Install dependencies `yarn install`
   - Run application `yarn start`
@@ -15,7 +15,7 @@
 - You would need npm or yarn to run this application
 
 #### What are the relevant pivotal tracker stories?
-- PT Story link - [#PTID](https://www.pivotaltracker.com/story/show/[PTID])
+- PT Story link - N/A
 
 
 #### Screenshots (if appropriate)

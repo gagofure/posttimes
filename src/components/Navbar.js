@@ -1,7 +1,5 @@
 import React from 'react';
-// import Home from './components/Home.js';
-// import About from './components/About.js';
-// import Contact from './components/Contact.js';
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -12,9 +10,9 @@ const Navbar = () => {
                     <div className="container">
                         <a href="/" className="brand-logo">Post'Times</a>
                         <ul  className="right ">
-                            <li><a href="/">Home </a></li>
-                            <li><a href="/About">About</a></li>
-                            <li><a href="/Contact">Contact </a></li>
+                            <li>< NavLink to="/">Home </NavLink></li>
+                            <li>< Link to="/About">About</Link></li>
+                            <li>< Link to="/Contact">Contact </Link></li>
                         </ul>
                     </div>
                 </div>
