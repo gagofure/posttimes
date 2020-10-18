@@ -1,4 +1,5 @@
 import React from 'react';
+import color from './../hoc/color';
 
 const About = () => {
     return (
@@ -11,4 +12,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default color(About);
